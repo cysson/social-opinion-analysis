@@ -15,6 +15,7 @@
 
 
 ## 5. 项目结构说明
+```text
 social-opinion-analysis/
 │
 ├── README.md                  
@@ -22,7 +23,6 @@ social-opinion-analysis/
 ├── .gitignore
 │
 ├── docs/                       # 文档与报告
-
 │
 ├── data/
 │   ├── raw/                    # 原始爬取数据
@@ -30,16 +30,14 @@ social-opinion-analysis/
 │   └── sample/                 # 小样本数据
 │
 ├── crawler/                    # 爬虫
-
 │
 ├── preprocess/                 # 数据清洗与预处理
-
 │
-├── analysis/                   # 大数据分析（核心）
-
+├── analysis/                   # 大数据分析
 │
 ├── visualization/              # 结果可视化
 
+```
 
 
 
