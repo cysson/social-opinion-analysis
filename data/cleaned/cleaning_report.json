@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-18 16:01:38",
+  "timestamp": "2025-12-19 18:21:33",
   "cleaning_objective": "提高数据质量，为后续分析（情感分析、聚类、关联规则挖掘、可视化）做准备",
   "cleaning_steps": [
     {
@@ -39,7 +39,7 @@
     }
   ],
   "raw_data": {
-    "total_records": 21517,
+    "total_records": 30807,
     "columns": [
       "comment_id",
       "create_time",
@@ -72,38 +72,38 @@
     ],
     "data_types": "{'comment_id': 'object', 'create_time': 'float64', 'ip_location': 'object', 'note_id': 'object', 'content': 'object', 'user_id': 'object', 'nickname': 'object', 'avatar': 'object', 'sub_comment_count': 'object', 'pictures': 'object', 'parent_comment_id': 'float64', 'last_modify_ts': 'int64', 'like_count': 'object', 'type': 'object', 'title': 'object', 'desc': 'object', 'video_url': 'object', 'time': 'float64', 'last_update_time': 'float64', 'liked_count': 'object', 'collected_count': 'object', 'comment_count': 'object', 'share_count': 'object', 'image_list': 'object', 'tag_list': 'object', 'note_url': 'object', 'source_keyword': 'object', 'xsec_token': 'object'}",
     "missing_values": {
-      "comment_id": 2371,
-      "create_time": 2371,
-      "ip_location": 3149,
+      "comment_id": 3250,
+      "create_time": 3250,
+      "ip_location": 5133,
       "note_id": 0,
-      "content": 2371,
+      "content": 3250,
       "user_id": 0,
       "nickname": 0,
       "avatar": 0,
-      "sub_comment_count": 2371,
-      "pictures": 2371,
-      "parent_comment_id": 2371,
+      "sub_comment_count": 3250,
+      "pictures": 3250,
+      "parent_comment_id": 3250,
       "last_modify_ts": 0,
-      "like_count": 2371,
-      "type": 19146,
-      "title": 19146,
-      "desc": 19146,
-      "video_url": 19146,
-      "time": 19146,
-      "last_update_time": 19146,
-      "liked_count": 19146,
-      "collected_count": 19146,
-      "comment_count": 19146,
-      "share_count": 19146,
-      "image_list": 19146,
-      "tag_list": 19146,
-      "note_url": 19146,
-      "source_keyword": 19146,
-      "xsec_token": 19146
+      "like_count": 3250,
+      "type": 27557,
+      "title": 27557,
+      "desc": 27557,
+      "video_url": 27557,
+      "time": 27557,
+      "last_update_time": 27557,
+      "liked_count": 27557,
+      "collected_count": 27557,
+      "comment_count": 27557,
+      "share_count": 27557,
+      "image_list": 27557,
+      "tag_list": 27557,
+      "note_url": 27557,
+      "source_keyword": 27557,
+      "xsec_token": 27557
     }
   },
   "cleaned_data": {
-    "total_records": 14157,
+    "total_records": 20508,
     "columns": [
       "comment_id",
       "create_time",
@@ -159,65 +159,65 @@
       "interaction_count",
       "has_interaction"
     ],
-    "retention_rate": "65.79%",
-    "records_removed": 7360
+    "retention_rate": "66.57%",
+    "records_removed": 10299
   },
   "cleaning_stats": {
-    "records_removed": 7360,
+    "records_removed": 10299,
     "new_features_added": [
-      "day_of_week",
-      "datetime_str",
-      "day",
       "is_kol",
       "sentiment_label",
-      "date",
-      "location_standard",
-      "location_province",
-      "interaction_count",
-      "content_length",
-      "month",
       "user_comment_count",
-      "location_city",
-      "has_picture",
-      "user_total_replies",
-      "user_activity_score",
-      "year",
       "day_name",
-      "hour",
-      "is_reply",
-      "content_clean",
-      "quarter",
-      "has_interaction",
+      "year",
       "sentiment_score",
-      "user_total_likes"
+      "location_city",
+      "user_total_replies",
+      "quarter",
+      "user_total_likes",
+      "content_length",
+      "user_activity_score",
+      "location_standard",
+      "date",
+      "hour",
+      "day_of_week",
+      "interaction_count",
+      "content_clean",
+      "month",
+      "location_province",
+      "has_picture",
+      "day",
+      "datetime_str",
+      "is_reply",
+      "has_interaction"
     ]
   },
   "data_quality_metrics": {
     "missing_content": 0,
-    "avg_content_length": 31.240446422264604,
-    "has_picture_ratio": 0.020413929504838595,
+    "avg_content_length": 31.761020089721086,
+    "has_picture_ratio": 0.01838307002145504,
     "reply_ratio": 0.0,
-    "avg_sentiment_score": 0.13424633727664032,
+    "avg_sentiment_score": 0.14211697487004682,
     "time_range": {
-      "start": "2022-04-08 08:56:43",
-      "end": "2025-12-16 18:22:32"
+      "start": "2020-07-08 17:30:06",
+      "end": "2025-12-19 09:54:24"
     },
     "location_distribution": {
-      "中国": 10493,
-      "其他地区": 2756,
-      "美国": 555,
-      "加拿大": 138,
-      "澳大利亚": 80,
-      "英国": 71,
-      "日本": 58,
-      "韩国": 6
+      "中国": 15066,
+      "其他地区": 4419,
+      "美国": 620,
+      "加拿大": 149,
+      "澳大利亚": 94,
+      "英国": 78,
+      "日本": 73,
+      "韩国": 9
     },
     "sentiment_distribution": {
-      "中性": 9934,
-      "正面": 3072,
-      "负面": 1151
+      "中性": 14194,
+      "正面": 4643,
+      "负面": 1671
     },
-    "kol_count": 1413
+    "kol_count": 2058
   },
   "technical_tools": "Python Pandas（数据清洗和特征工程）",
   "output_formats": [
